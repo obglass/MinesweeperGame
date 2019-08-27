@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+}
+
+h1, h2 {
+  background-color: #5DADE2;
+  padding: 0px 0px 0px 0px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 0px;
+    width: 29px;
+    height: 29px;
+}
+
+#create {
+   font-size: 20px;
+   background-color: #5DADE2;
+   font-color: white;
+   padding: 4px 4px;
+}
+
+#safe, #bomb {
+  background-color: gray;
+}
+
+p {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 0px 0px;;
+}
+
+#default {
+   float: left;
+   text-align: center;
+}
+
+.table-container {
+  text-align: center;
+}
+
+.tableDiv {
+  float: left;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.playerInfo {
+  float: left;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+.gameInput {
+  float: left;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+.cellButton {
+  background-color: #383838;
+  opacity: 0.5;
+  width: 29px;
+  height: 29px;
+  display: block;
+  margin: auto;
+}
+
+#scores {
+  border: 0px solid white;
+
+}
+
+li {
+  list-style: none;
+}

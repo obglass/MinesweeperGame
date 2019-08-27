@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Minesweeper Game</title>
+        <link rel='stylesheet' href="a3style.css"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="a3script.js"></script>
+</head>
+<body>
+    <h1 class="title">Minesweeper</h1>
+
+      <div class = "gameInput">
+         <p> Rows (8-30): <input type="text" name="row" id="rowCount"/>
+         Columns (8-40): <input type="text" name="col" id="colCount"/>
+         Mine Number (1 to Area-1): <input type="text" name="mine" id="mineCount"/>
+         <button id="create"> Create New Board </button>
+         <p id="default"> If a number outside of the bounds is chosen, rows and columns will default to 8, and mines will default to 10. 'M' stands for 'Marked/Flagged' as a bomb</p>
+      </div>
+
+  <div class="playerInfo">
+      <div id="bombs"></div>
+    <section id="stopWatch">
+      <h2><time>00:00:00</time></h2>
+    </section>
+   </div>
+   <div class="tableDiv"></div>
+   <p id="highScore"></p>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(8, auto);
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: center;
+
+}
+
+td {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+
+$(document).ready(function() {
+    for(let i = 0; i < 8; i++) {
+        for (let j =0; j <8; j++) {
+            let newDiv = $("<div class='grid-item'></div>");
+            let square = $("<button type='unclicked'><p>S</p></button>");
+            newDiv.append(square);
+            }
+    }
+});
+
+
+                for (let k = 0; k < mines.length; k++) {
+    //                if (i==mines[k][0] && j==mines[k][1]) {
+          //              $col.addClass("mine");
+      //              }
+           //     }
+
+/* make the grid size
+$(document).ready(function() {
+function func() {
+    let message;
+    let rows;
+    let cols;
+    let mines;
+    let rowquest = prompt("Rows:", "8");
+    if (rowquest != null) {
+        document.getElementById("demo").innerHTML = rowquest + "worked";
+    }
+}
+});
+
+
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "Harry Potter");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "Hello " + person + "! How are you today?";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+
+*/
